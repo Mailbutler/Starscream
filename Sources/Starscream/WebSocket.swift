@@ -172,3 +172,13 @@ open class WebSocket: WebSocketClient, EngineDelegate {
         }
     }
 }
+
+// MARK: - Sendable
+
+/// `@unchecked` because nothing here is checkable: the class is not `final` and `Engine` is a
+/// non-`Sendable` existential. The claim is a usage contract rather than a property of the type:
+/// `delegate`, `onEvent`, `request` and `callbackQueue` are unguarded, so they must be configured
+/// before `connect()` and left alone afterwards. Past that point every operation goes through the
+/// engine, which serializes on its own queue (`WSEngine`) or on `URLSessionWebSocketTask`
+/// (`NativeEngine`).
+extension WebSocket: @unchecked Sendable {}

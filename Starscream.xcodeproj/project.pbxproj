@@ -3,556 +3,417 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		335FA1F91F5DF71D00F6D2EC /* CompressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88EAF831ED4E7D8004FE2C3 /* CompressionTests.swift */; };
-		335FA1FA1F5DF71D00F6D2EC /* StarscreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742419BB1DC6BDBA003ACE43 /* StarscreamTests.swift */; };
-		335FA1FC1F5DF71D00F6D2EC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D88EAF811ED4DFD3004FE2C3 /* libz.tbd */; };
-		33CCF08A1F5DDC030099B092 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D88EAF811ED4DFD3004FE2C3 /* libz.tbd */; };
-		33CCF08C1F5DDC030099B092 /* Starscream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1360001C473BEF00AA3A01 /* Starscream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C23C24521FBB0EE00D315F1 /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C23C24421FBB0EE00D315F1 /* FoundationHTTPHandler.swift */; };
-		5C7CB5A722B59ABA006AF81B /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7CB5A622B59ABA006AF81B /* NativeEngine.swift */; };
-		5C7CB5A922B5A14C006AF81B /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7CB5A822B5A14C006AF81B /* Engine.swift */; };
-		5C7CB5AB22B5ABF0006AF81B /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7CB5AA22B5ABF0006AF81B /* WSEngine.swift */; };
-		5C839729231359AE00856501 /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C839728231359AE00856501 /* StringHTTPHandler.swift */; };
-		5C85661D2257AE9D00A371DD /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C85661C2257AE9D00A371DD /* WebSocketServer.swift */; };
-		5CF1D064225055760081C8A8 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD446F224C036A00FB8370 /* Data+Extensions.swift */; };
-		5CF1D0662253DD490081C8A8 /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF1D0652253DD490081C8A8 /* FoundationHTTPServerHandler.swift */; };
-		5CF1D0682253DD940081C8A8 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF1D0672253DD940081C8A8 /* Server.swift */; };
-		8A1681A7223D8664000C08D8 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1681A6223D8664000C08D8 /* Security.swift */; };
-		8A1681A9223D8707000C08D8 /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1681A8223D8707000C08D8 /* FoundationSecurity.swift */; };
-		8A7A718821F8E1490061166D /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A718721F8E1490061166D /* Transport.swift */; };
-		8A7A718A21F8E23C0061166D /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A718921F8E23C0061166D /* TCPTransport.swift */; };
-		8A7A718C21F8F9790061166D /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A718B21F8F9790061166D /* FoundationTransport.swift */; };
-		8A7A718F21F924D40061166D /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A718E21F924D40061166D /* Framer.swift */; };
-		8A7A719121FA3DCD0061166D /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A719021FA3DCD0061166D /* FrameCollector.swift */; };
-		8A7A719321FA42BA0061166D /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A719221FA42BA0061166D /* HTTPHandler.swift */; };
-		8A7A719621FFB3190061166D /* FuzzingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A719421FFB2E30061166D /* FuzzingTests.swift */; };
-		8A7A719921FFB4650061166D /* MockTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A719721FFB4280061166D /* MockTransport.swift */; };
-		8A7A719C220248330061166D /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A719A2200C6DE0061166D /* MockServer.swift */; };
-		8A906E3D2208BD9B0015057D /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A906E3C2208BD9B0015057D /* Compression.swift */; };
-		8A906E3F2208C7E80015057D /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A906E3E2208C7E80015057D /* WSCompression.swift */; };
-		8ABD4470224C036A00FB8370 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD446F224C036A00FB8370 /* Data+Extensions.swift */; };
-		BBB5ABE8215E2217005B48B6 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5ABE4215E2217005B48B6 /* WebSocket.swift */; };
-		FC7E667D2B90B3AD00881886 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FC7E667C2B90B3AD00881886 /* PrivacyInfo.xcprivacy */; };
+		00DE5887611750EAF4D30412 /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3FB01773D73DCEA8EA8A6 /* WSCompression.swift */; };
+		035855EEA5B5440EB13EBE38 /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93AD2B63C1FA74A30E54F00 /* TCPTransport.swift */; };
+		088591219D43B40C86CE5035 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86EC464B401EB16FB84FDC0 /* Engine.swift */; };
+		10ACB43D2478FF419FCBC102 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5B26CF8D70FF7BD969685 /* WebSocket.swift */; };
+		10C1781FCDBBA376CEF0C446 /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA5231B9FE88E1DA60831E /* FoundationHTTPHandler.swift */; };
+		26C39BCBA31586AAF336DBB2 /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7070B02052413CBC65D0E23F /* FoundationTransport.swift */; };
+		274EAB28F18A6BB0454435DA /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E26FC877B8188D80C31D5 /* NativeEngine.swift */; };
+		2C3D63BCB2C0CE1D7C3BA64F /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5214A5DB61EEC3F073B676 /* FrameCollector.swift */; };
+		37527639DB7FE4815ACB4418 /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73810440D594F15DDF8D496 /* WebSocketServer.swift */; };
+		39FBE6D94DCE58CB4D99914A /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0AA0FF802852EE27F6B599 /* Framer.swift */; };
+		45E4DB38E3D85BC859865905 /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A7E59C039E9A4CDEB72FE7 /* StringHTTPHandler.swift */; };
+		6012498B46142969EA971565 /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDD8E866DC28666F1C637C /* FoundationHTTPServerHandler.swift */; };
+		60301AD0B93F3D4FF1851141 /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B590367BDB6C1ED069EDA70A /* WSEngine.swift */; };
+		60F457A4AE20C50BBDA83E02 /* TuistBundle+Starscream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46032B90A48B9BDC25394C40 /* TuistBundle+Starscream.swift */; };
+		6555305DB15F8D84ED368501 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5514A13A3661ADF6AC7C9EB0 /* Data+Extensions.swift */; };
+		975DB646EF92E0CF574166B7 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3277916AE7097183746A02EF /* Security.swift */; };
+		B57CD7945FF0F0553CF7F7A1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 940ED1F043FA8239980F1EFD /* PrivacyInfo.xcprivacy */; };
+		B5809BF8BE0796819BA8D6CA /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410945D05F1362351C60E60 /* Transport.swift */; };
+		C0C8BFDFBB0D54B461B68601 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB712A22772BD4855D7AAD49 /* Server.swift */; };
+		C70C17FA6A601D6B0383AC9A /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87EFB4BC7C45FF0E1A2B884 /* FoundationSecurity.swift */; };
+		CB6C5EE622CAB7036306AE13 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8D5EBC135A6B59BE3FB50 /* Compression.swift */; };
+		F8119C082E324D8079F1F999 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E5DE44B00A11418CFBDEE /* HTTPHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6B0BE7AA24A157BB0051F7A7 /* PBXContainerItemProxy */ = {
+		58CD5DF10082C6FC131F1897 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6B3E79DD19D48B7F006071F7 /* Project object */;
+			containerPortal = 275C2116BC66F0AC827AEDDC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 33CCF0841F5DDC030099B092;
-			remoteInfo = Starscream;
+			remoteGlobalIDString = 4CBF6469F927131D35C9F15B;
+			remoteInfo = Starscream_Starscream;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1BF167F701E3A3F3C4E1A9BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BD5CF26B2B57BA04BD59F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		335FA2021F5DF71D00F6D2EC /* Starscream Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Starscream Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33CCF0921F5DDC030099B092 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C1360001C473BEF00AA3A01 /* Starscream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Starscream.h; path = Sources/Starscream.h; sourceTree = SOURCE_ROOT; };
-		5C13600C1C473BFE00AA3A01 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
-		5C23C24421FBB0EE00D315F1 /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationHTTPHandler.swift; sourceTree = "<group>"; };
-		5C7CB5A622B59ABA006AF81B /* NativeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeEngine.swift; sourceTree = "<group>"; };
-		5C7CB5A822B5A14C006AF81B /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
-		5C7CB5AA22B5ABF0006AF81B /* WSEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSEngine.swift; sourceTree = "<group>"; };
-		5C839728231359AE00856501 /* StringHTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHTTPHandler.swift; sourceTree = "<group>"; };
-		5C85661C2257AE9D00A371DD /* WebSocketServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketServer.swift; sourceTree = "<group>"; };
-		5CF1D0652253DD490081C8A8 /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
-		5CF1D0672253DD940081C8A8 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
-		6B3E7A0019D48C2F006071F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		742419BB1DC6BDBA003ACE43 /* StarscreamTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarscreamTests.swift; path = StarscreamTests/StarscreamTests.swift; sourceTree = "<group>"; };
-		8A1681A6223D8664000C08D8 /* Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
-		8A1681A8223D8707000C08D8 /* FoundationSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationSecurity.swift; sourceTree = "<group>"; };
-		8A7A718721F8E1490061166D /* Transport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Transport/Transport.swift; sourceTree = "<group>"; };
-		8A7A718921F8E23C0061166D /* TCPTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Transport/TCPTransport.swift; sourceTree = "<group>"; };
-		8A7A718B21F8F9790061166D /* FoundationTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Transport/FoundationTransport.swift; sourceTree = "<group>"; };
-		8A7A718E21F924D40061166D /* Framer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framer.swift; sourceTree = "<group>"; };
-		8A7A719021FA3DCD0061166D /* FrameCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameCollector.swift; sourceTree = "<group>"; };
-		8A7A719221FA42BA0061166D /* HTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
-		8A7A719421FFB2E30061166D /* FuzzingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuzzingTests.swift; sourceTree = "<group>"; };
-		8A7A719721FFB4280061166D /* MockTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTransport.swift; sourceTree = "<group>"; };
-		8A7A719A2200C6DE0061166D /* MockServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServer.swift; sourceTree = "<group>"; };
-		8A906E3C2208BD9B0015057D /* Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Compression/Compression.swift; sourceTree = "<group>"; };
-		8A906E3E2208C7E80015057D /* WSCompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Compression/WSCompression.swift; sourceTree = "<group>"; };
-		8ABD446F224C036A00FB8370 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
-		BBB5ABE4215E2217005B48B6 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Starscream/WebSocket.swift; sourceTree = "<group>"; tabWidth = 4; };
-		D88EAF811ED4DFD3004FE2C3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		D88EAF831ED4E7D8004FE2C3 /* CompressionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompressionTests.swift; sourceTree = "<group>"; };
-		FC7E667C2B90B3AD00881886 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		14C1C37D7AEEC93A80D11562 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3277916AE7097183746A02EF /* Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
+		3FEDD8E866DC28666F1C637C /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
+		46032B90A48B9BDC25394C40 /* TuistBundle+Starscream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Starscream.swift"; sourceTree = "<group>"; };
+		48EA5231B9FE88E1DA60831E /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationHTTPHandler.swift; sourceTree = "<group>"; };
+		5514A13A3661ADF6AC7C9EB0 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		6CB8D5EBC135A6B59BE3FB50 /* Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
+		7070B02052413CBC65D0E23F /* FoundationTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationTransport.swift; sourceTree = "<group>"; };
+		75A7E59C039E9A4CDEB72FE7 /* StringHTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHTTPHandler.swift; sourceTree = "<group>"; };
+		870DA11E90477628A21AACC6 /* Starscream_Starscream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Starscream_Starscream-Info.plist"; sourceTree = "<group>"; };
+		89F3FB01773D73DCEA8EA8A6 /* WSCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSCompression.swift; sourceTree = "<group>"; };
+		8F3E26FC877B8188D80C31D5 /* NativeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeEngine.swift; sourceTree = "<group>"; };
+		940ED1F043FA8239980F1EFD /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A86EC464B401EB16FB84FDC0 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		A87EFB4BC7C45FF0E1A2B884 /* FoundationSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationSecurity.swift; sourceTree = "<group>"; };
+		AAD5B26CF8D70FF7BD969685 /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		B410945D05F1362351C60E60 /* Transport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
+		B590367BDB6C1ED069EDA70A /* WSEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSEngine.swift; sourceTree = "<group>"; };
+		D29DDD693A7EF84AC3B4A4DD /* Starscream_Starscream.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Starscream_Starscream.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0AA0FF802852EE27F6B599 /* Framer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framer.swift; sourceTree = "<group>"; };
+		F16E5DE44B00A11418CFBDEE /* HTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
+		F73810440D594F15DDF8D496 /* WebSocketServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketServer.swift; sourceTree = "<group>"; };
+		F93AD2B63C1FA74A30E54F00 /* TCPTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPTransport.swift; sourceTree = "<group>"; };
+		F9550E26758E533216A4BF99 /* Starscream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		FB5214A5DB61EEC3F073B676 /* FrameCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameCollector.swift; sourceTree = "<group>"; };
+		FB712A22772BD4855D7AAD49 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		335FA1FB1F5DF71D00F6D2EC /* Frameworks */ = {
+		048489E70396FEBCE549237B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335FA1FC1F5DF71D00F6D2EC /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33CCF0891F5DDC030099B092 /* Frameworks */ = {
+		F6AA09FAC6BF5156549AEBF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33CCF08A1F5DDC030099B092 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C7CB5A522B59A82006AF81B /* Engine */ = {
+		18B2C9B4D953649D5ADA1844 /* Server */ = {
 			isa = PBXGroup;
 			children = (
-				5C7CB5A822B5A14C006AF81B /* Engine.swift */,
-				5C7CB5A622B59ABA006AF81B /* NativeEngine.swift */,
-				5C7CB5AA22B5ABF0006AF81B /* WSEngine.swift */,
-			);
-			path = Engine;
-			sourceTree = "<group>";
-		};
-		5C85661B2257AE7500A371DD /* Server */ = {
-			isa = PBXGroup;
-			children = (
-				5CF1D0672253DD940081C8A8 /* Server.swift */,
-				5C85661C2257AE9D00A371DD /* WebSocketServer.swift */,
+				FB712A22772BD4855D7AAD49 /* Server.swift */,
+				F73810440D594F15DDF8D496 /* WebSocketServer.swift */,
 			);
 			path = Server;
 			sourceTree = "<group>";
 		};
-		6B3E79DC19D48B7F006071F7 = {
+		5AD407A9A931A0E14BB8E196 /* Starscream */ = {
 			isa = PBXGroup;
 			children = (
-				6B3E79E819D48B7F006071F7 /* Sources */,
-				6B3E79FF19D48C2F006071F7 /* Tests */,
-				6B3E79E719D48B7F006071F7 /* Products */,
-				D88EAF801ED4DFD3004FE2C3 /* Frameworks */,
+				AAD5B26CF8D70FF7BD969685 /* WebSocket.swift */,
 			);
+			path = Starscream;
 			sourceTree = "<group>";
 		};
-		6B3E79E719D48B7F006071F7 /* Products */ = {
+		5CE1C5E4AE6E5890E0289519 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
-				33CCF0921F5DDC030099B092 /* Starscream.framework */,
-				335FA2021F5DF71D00F6D2EC /* Starscream Tests.xctest */,
+				A86EC464B401EB16FB84FDC0 /* Engine.swift */,
+				8F3E26FC877B8188D80C31D5 /* NativeEngine.swift */,
+				B590367BDB6C1ED069EDA70A /* WSEngine.swift */,
 			);
-			name = Products;
+			path = Engine;
 			sourceTree = "<group>";
 		};
-		6B3E79E819D48B7F006071F7 /* Sources */ = {
+		6F95FC86D8AD5CF4714A8F7A /* Derived */ = {
 			isa = PBXGroup;
 			children = (
-				8ABD446E224C033600FB8370 /* DataBytes */,
-				5C7CB5A522B59A82006AF81B /* Engine */,
-				8A7A718D21F924BF0061166D /* Framer */,
-				8A7A718621F8DB930061166D /* Transport */,
-				8A7A718521F8DB810061166D /* Compression */,
-				8A1681A5223D8648000C08D8 /* Security */,
-				BBB5ABE4215E2217005B48B6 /* WebSocket.swift */,
-				5C85661B2257AE7500A371DD /* Server */,
-				5C1360001C473BEF00AA3A01 /* Starscream.h */,
-				6B3E79E919D48B7F006071F7 /* Supporting Files */,
+				D10E1B2EAF252F806CB1374A /* InfoPlists */,
+				8D9309F7FE3C29B8916BBFAE /* Sources */,
 			);
-			path = Sources;
+			path = Derived;
 			sourceTree = "<group>";
 		};
-		6B3E79E919D48B7F006071F7 /* Supporting Files */ = {
+		7548FCB3C39A65F3700D2ADC /* Framer */ = {
 			isa = PBXGroup;
 			children = (
-				FC7E667C2B90B3AD00881886 /* PrivacyInfo.xcprivacy */,
-				5C13600C1C473BFE00AA3A01 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6B3E79FF19D48C2F006071F7 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6B3E7A0019D48C2F006071F7 /* Info.plist */,
-				742419BB1DC6BDBA003ACE43 /* StarscreamTests.swift */,
-				D88EAF831ED4E7D8004FE2C3 /* CompressionTests.swift */,
-				8A7A719421FFB2E30061166D /* FuzzingTests.swift */,
-				8A7A719721FFB4280061166D /* MockTransport.swift */,
-				8A7A719A2200C6DE0061166D /* MockServer.swift */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		8A1681A5223D8648000C08D8 /* Security */ = {
-			isa = PBXGroup;
-			children = (
-				8A1681A6223D8664000C08D8 /* Security.swift */,
-				8A1681A8223D8707000C08D8 /* FoundationSecurity.swift */,
-			);
-			path = Security;
-			sourceTree = "<group>";
-		};
-		8A7A718521F8DB810061166D /* Compression */ = {
-			isa = PBXGroup;
-			children = (
-				8A906E3C2208BD9B0015057D /* Compression.swift */,
-				8A906E3E2208C7E80015057D /* WSCompression.swift */,
-			);
-			name = Compression;
-			sourceTree = "<group>";
-		};
-		8A7A718621F8DB930061166D /* Transport */ = {
-			isa = PBXGroup;
-			children = (
-				8A7A718721F8E1490061166D /* Transport.swift */,
-				8A7A718921F8E23C0061166D /* TCPTransport.swift */,
-				8A7A718B21F8F9790061166D /* FoundationTransport.swift */,
-			);
-			name = Transport;
-			sourceTree = "<group>";
-		};
-		8A7A718D21F924BF0061166D /* Framer */ = {
-			isa = PBXGroup;
-			children = (
-				8A7A718E21F924D40061166D /* Framer.swift */,
-				8A7A719021FA3DCD0061166D /* FrameCollector.swift */,
-				8A7A719221FA42BA0061166D /* HTTPHandler.swift */,
-				5C23C24421FBB0EE00D315F1 /* FoundationHTTPHandler.swift */,
-				5CF1D0652253DD490081C8A8 /* FoundationHTTPServerHandler.swift */,
-				5C839728231359AE00856501 /* StringHTTPHandler.swift */,
+				48EA5231B9FE88E1DA60831E /* FoundationHTTPHandler.swift */,
+				3FEDD8E866DC28666F1C637C /* FoundationHTTPServerHandler.swift */,
+				FB5214A5DB61EEC3F073B676 /* FrameCollector.swift */,
+				DF0AA0FF802852EE27F6B599 /* Framer.swift */,
+				F16E5DE44B00A11418CFBDEE /* HTTPHandler.swift */,
+				75A7E59C039E9A4CDEB72FE7 /* StringHTTPHandler.swift */,
 			);
 			path = Framer;
 			sourceTree = "<group>";
 		};
-		8ABD446E224C033600FB8370 /* DataBytes */ = {
+		86F1FB618D237AEA175E10A0 /* Compression */ = {
 			isa = PBXGroup;
 			children = (
-				8ABD446F224C036A00FB8370 /* Data+Extensions.swift */,
+				6CB8D5EBC135A6B59BE3FB50 /* Compression.swift */,
+				89F3FB01773D73DCEA8EA8A6 /* WSCompression.swift */,
+			);
+			path = Compression;
+			sourceTree = "<group>";
+		};
+		87A56B7F6211C310A246F211 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				7070B02052413CBC65D0E23F /* FoundationTransport.swift */,
+				F93AD2B63C1FA74A30E54F00 /* TCPTransport.swift */,
+				B410945D05F1362351C60E60 /* Transport.swift */,
+			);
+			path = Transport;
+			sourceTree = "<group>";
+		};
+		8846706AEBEC688ECAED6F3B /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				6F95FC86D8AD5CF4714A8F7A /* Derived */,
+				EB74B23788FD0A6003A26305 /* Sources */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		8A67C3EAA533A4B58F51F741 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				A87EFB4BC7C45FF0E1A2B884 /* FoundationSecurity.swift */,
+				3277916AE7097183746A02EF /* Security.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		8D9309F7FE3C29B8916BBFAE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				46032B90A48B9BDC25394C40 /* TuistBundle+Starscream.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C70791CB16D489E319B7BA1C /* DataBytes */ = {
+			isa = PBXGroup;
+			children = (
+				5514A13A3661ADF6AC7C9EB0 /* Data+Extensions.swift */,
 			);
 			path = DataBytes;
 			sourceTree = "<group>";
 		};
-		D88EAF801ED4DFD3004FE2C3 /* Frameworks */ = {
+		D10E1B2EAF252F806CB1374A /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
-				D88EAF811ED4DFD3004FE2C3 /* libz.tbd */,
+				870DA11E90477628A21AACC6 /* Starscream_Starscream-Info.plist */,
+				F9550E26758E533216A4BF99 /* Starscream-Info.plist */,
 			);
-			name = Frameworks;
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		EB74B23788FD0A6003A26305 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				86F1FB618D237AEA175E10A0 /* Compression */,
+				C70791CB16D489E319B7BA1C /* DataBytes */,
+				5CE1C5E4AE6E5890E0289519 /* Engine */,
+				7548FCB3C39A65F3700D2ADC /* Framer */,
+				8A67C3EAA533A4B58F51F741 /* Security */,
+				18B2C9B4D953649D5ADA1844 /* Server */,
+				5AD407A9A931A0E14BB8E196 /* Starscream */,
+				87A56B7F6211C310A246F211 /* Transport */,
+				940ED1F043FA8239980F1EFD /* PrivacyInfo.xcprivacy */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EC0ED976F3242127DB3AB29B = {
+			isa = PBXGroup;
+			children = (
+				F8764B04F3B6CC2D1EC3BF53 /* Products */,
+				8846706AEBEC688ECAED6F3B /* Project */,
+			);
+			sourceTree = "<group>";
+		};
+		F8764B04F3B6CC2D1EC3BF53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29DDD693A7EF84AC3B4A4DD /* Starscream_Starscream.bundle */,
+				14C1C37D7AEEC93A80D11562 /* Starscream.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		33CCF08B1F5DDC030099B092 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33CCF08C1F5DDC030099B092 /* Starscream.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		335FA1F41F5DF71D00F6D2EC /* Starscream Tests */ = {
+		49B615F8242FEFCF783EC8F0 /* Starscream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 335FA1FF1F5DF71D00F6D2EC /* Build configuration list for PBXNativeTarget "Starscream Tests" */;
+			buildConfigurationList = A245351F01698B753F656BBD /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
-				335FA1F51F5DF71D00F6D2EC /* Sources */,
-				335FA1FB1F5DF71D00F6D2EC /* Frameworks */,
-				335FA1FE1F5DF71D00F6D2EC /* Resources */,
+				A3B43401C50AE84681AB0885 /* Sources */,
+				7C79B7998F56307552FE8C55 /* Resources */,
+				F6AA09FAC6BF5156549AEBF9 /* Frameworks */,
+				1BF167F701E3A3F3C4E1A9BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B0BE7AB24A157BB0051F7A7 /* PBXTargetDependency */,
-			);
-			name = "Starscream Tests";
-			productName = StarscreamTests;
-			productReference = 335FA2021F5DF71D00F6D2EC /* Starscream Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		33CCF0841F5DDC030099B092 /* Starscream */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 33CCF08F1F5DDC030099B092 /* Build configuration list for PBXNativeTarget "Starscream" */;
-			buildPhases = (
-				33CCF0851F5DDC030099B092 /* Sources */,
-				33CCF0891F5DDC030099B092 /* Frameworks */,
-				33CCF08B1F5DDC030099B092 /* Headers */,
-				33CCF08E1F5DDC030099B092 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				A2A2FCF09C5244C971315382 /* PBXTargetDependency */,
 			);
 			name = Starscream;
+			packageProductDependencies = (
+			);
 			productName = Starscream;
-			productReference = 33CCF0921F5DDC030099B092 /* Starscream.framework */;
+			productReference = 14C1C37D7AEEC93A80D11562 /* Starscream.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		4CBF6469F927131D35C9F15B /* Starscream_Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB59D2EE74615343C1EA8F5 /* Build configuration list for PBXNativeTarget "Starscream_Starscream" */;
+			buildPhases = (
+				46DEBE4E0C0FC2F35D5C3F9D /* Sources */,
+				4EE275C05743D8D141179972 /* Resources */,
+				048489E70396FEBCE549237B /* Frameworks */,
+				C9BD5CF26B2B57BA04BD59F1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream_Starscream;
+			packageProductDependencies = (
+			);
+			productName = Starscream_Starscream;
+			productReference = D29DDD693A7EF84AC3B4A4DD /* Starscream_Starscream.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6B3E79DD19D48B7F006071F7 /* Project object */ = {
+		275C2116BC66F0AC827AEDDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 1530;
-				ORGANIZATIONNAME = Vluxe;
+				LastUpgradeCheck = 9999;
 				TargetAttributes = {
-					335FA1F41F5DF71D00F6D2EC = {
-						LastSwiftMigration = 0900;
-					};
-					33CCF0841F5DDC030099B092 = {
-						LastSwiftMigration = 0940;
-					};
 				};
 			};
-			buildConfigurationList = 6B3E79E019D48B7F006071F7 /* Build configuration list for PBXProject "Starscream" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = FE551F1CF43145CCFFD047A2 /* Build configuration list for PBXProject "Starscream" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = 6B3E79DC19D48B7F006071F7;
-			productRefGroup = 6B3E79E719D48B7F006071F7 /* Products */;
+			mainGroup = EC0ED976F3242127DB3AB29B;
+			productRefGroup = F8764B04F3B6CC2D1EC3BF53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33CCF0841F5DDC030099B092 /* Starscream */,
-				335FA1F41F5DF71D00F6D2EC /* Starscream Tests */,
+				49B615F8242FEFCF783EC8F0 /* Starscream */,
+				4CBF6469F927131D35C9F15B /* Starscream_Starscream */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		335FA1FE1F5DF71D00F6D2EC /* Resources */ = {
+		4EE275C05743D8D141179972 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57CD7945FF0F0553CF7F7A1 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33CCF08E1F5DDC030099B092 /* Resources */ = {
+		7C79B7998F56307552FE8C55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7E667D2B90B3AD00881886 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		335FA1F51F5DF71D00F6D2EC /* Sources */ = {
+		46DEBE4E0C0FC2F35D5C3F9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CF1D064225055760081C8A8 /* Data+Extensions.swift in Sources */,
-				8A7A719C220248330061166D /* MockServer.swift in Sources */,
-				8A7A719921FFB4650061166D /* MockTransport.swift in Sources */,
-				8A7A719621FFB3190061166D /* FuzzingTests.swift in Sources */,
-				335FA1F91F5DF71D00F6D2EC /* CompressionTests.swift in Sources */,
-				335FA1FA1F5DF71D00F6D2EC /* StarscreamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33CCF0851F5DDC030099B092 /* Sources */ = {
+		A3B43401C50AE84681AB0885 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7A719321FA42BA0061166D /* HTTPHandler.swift in Sources */,
-				8A7A719121FA3DCD0061166D /* FrameCollector.swift in Sources */,
-				8A1681A7223D8664000C08D8 /* Security.swift in Sources */,
-				8A7A718A21F8E23C0061166D /* TCPTransport.swift in Sources */,
-				8A1681A9223D8707000C08D8 /* FoundationSecurity.swift in Sources */,
-				8A7A718C21F8F9790061166D /* FoundationTransport.swift in Sources */,
-				BBB5ABE8215E2217005B48B6 /* WebSocket.swift in Sources */,
-				5C839729231359AE00856501 /* StringHTTPHandler.swift in Sources */,
-				5C7CB5A922B5A14C006AF81B /* Engine.swift in Sources */,
-				8A7A718F21F924D40061166D /* Framer.swift in Sources */,
-				5CF1D0662253DD490081C8A8 /* FoundationHTTPServerHandler.swift in Sources */,
-				5C7CB5AB22B5ABF0006AF81B /* WSEngine.swift in Sources */,
-				8A7A718821F8E1490061166D /* Transport.swift in Sources */,
-				8ABD4470224C036A00FB8370 /* Data+Extensions.swift in Sources */,
-				5C23C24521FBB0EE00D315F1 /* FoundationHTTPHandler.swift in Sources */,
-				5C85661D2257AE9D00A371DD /* WebSocketServer.swift in Sources */,
-				5CF1D0682253DD940081C8A8 /* Server.swift in Sources */,
-				8A906E3D2208BD9B0015057D /* Compression.swift in Sources */,
-				8A906E3F2208C7E80015057D /* WSCompression.swift in Sources */,
-				5C7CB5A722B59ABA006AF81B /* NativeEngine.swift in Sources */,
+				60F457A4AE20C50BBDA83E02 /* TuistBundle+Starscream.swift in Sources */,
+				CB6C5EE622CAB7036306AE13 /* Compression.swift in Sources */,
+				00DE5887611750EAF4D30412 /* WSCompression.swift in Sources */,
+				6555305DB15F8D84ED368501 /* Data+Extensions.swift in Sources */,
+				088591219D43B40C86CE5035 /* Engine.swift in Sources */,
+				274EAB28F18A6BB0454435DA /* NativeEngine.swift in Sources */,
+				60301AD0B93F3D4FF1851141 /* WSEngine.swift in Sources */,
+				10C1781FCDBBA376CEF0C446 /* FoundationHTTPHandler.swift in Sources */,
+				6012498B46142969EA971565 /* FoundationHTTPServerHandler.swift in Sources */,
+				2C3D63BCB2C0CE1D7C3BA64F /* FrameCollector.swift in Sources */,
+				39FBE6D94DCE58CB4D99914A /* Framer.swift in Sources */,
+				F8119C082E324D8079F1F999 /* HTTPHandler.swift in Sources */,
+				45E4DB38E3D85BC859865905 /* StringHTTPHandler.swift in Sources */,
+				C70C17FA6A601D6B0383AC9A /* FoundationSecurity.swift in Sources */,
+				975DB646EF92E0CF574166B7 /* Security.swift in Sources */,
+				C0C8BFDFBB0D54B461B68601 /* Server.swift in Sources */,
+				37527639DB7FE4815ACB4418 /* WebSocketServer.swift in Sources */,
+				10ACB43D2478FF419FCBC102 /* WebSocket.swift in Sources */,
+				26C39BCBA31586AAF336DBB2 /* FoundationTransport.swift in Sources */,
+				035855EEA5B5440EB13EBE38 /* TCPTransport.swift in Sources */,
+				B5809BF8BE0796819BA8D6CA /* Transport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6B0BE7AB24A157BB0051F7A7 /* PBXTargetDependency */ = {
+		A2A2FCF09C5244C971315382 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 33CCF0841F5DDC030099B092 /* Starscream */;
-			targetProxy = 6B0BE7AA24A157BB0051F7A7 /* PBXContainerItemProxy */;
+			name = Starscream_Starscream;
+			target = 4CBF6469F927131D35C9F15B /* Starscream_Starscream */;
+			targetProxy = 58CD5DF10082C6FC131F1897 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		335FA2001F5DF71D00F6D2EC /* Debug */ = {
+		1DE1575AB293F019D7E03315 /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "-";
-				DEAD_CODE_STRIPPING = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vluxe.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = macosx;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "4,7";
-			};
-			name = Debug;
-		};
-		335FA2011F5DF71D00F6D2EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "-";
-				DEAD_CODE_STRIPPING = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vluxe.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = macosx;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "4,7";
-			};
-			name = Release;
-		};
-		33CCF0901F5DDC030099B092 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BITCODE_GENERATION_MODE = marker;
-				CLANG_ENABLE_MODULES = YES;
-				DEAD_CODE_STRIPPING = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 4.0.4;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
-				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vluxe.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = macosx;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		33CCF0911F5DDC030099B092 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BITCODE_GENERATION_MODE = bitcode;
-				CLANG_ENABLE_MODULES = YES;
-				DEAD_CODE_STRIPPING = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 4.0.4;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
-				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vluxe.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = macosx;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		6B3E79F719D48B7F006071F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -561,62 +422,147 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator watchsimulator watchos xros xrsimulator";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					SWIFT_PACKAGE,
+				);
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5;
+				USE_HEADERMAP = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Alpha;
+		};
+		33601E722D3898C78210C43E /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PACKAGE_RESOURCE_BUNDLE_NAME = Starscream_Starscream;
+				PACKAGE_RESOURCE_TARGET_KIND = regular;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Alpha;
 		};
-		6B3E79F819D48B7F006071F7 /* Release */ = {
+		378572E4B909360193FA414D /* Wiretapped */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream_Starscream-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PACKAGE_RESOURCE_TARGET_KIND = resource;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream.generated.resources;
+				PRODUCT_NAME = Starscream_Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Wiretapped;
+		};
+		3F7E361851A9BC7E435368F1 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream_Starscream-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PACKAGE_RESOURCE_TARGET_KIND = resource;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream.generated.resources;
+				PRODUCT_NAME = Starscream_Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Test;
+		};
+		404742C352B675BF3E1D7734 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -625,69 +571,774 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator watchsimulator watchos xros xrsimulator";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					SWIFT_PACKAGE,
+				);
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5;
+				USE_HEADERMAP = NO;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
+		};
+		4C8985A9B1D336C636214E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PACKAGE_RESOURCE_BUNDLE_NAME = Starscream_Starscream;
+				PACKAGE_RESOURCE_TARGET_KIND = regular;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FEE0EE2875B412795CAFF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PACKAGE_RESOURCE_BUNDLE_NAME = Starscream_Starscream;
+				PACKAGE_RESOURCE_TARGET_KIND = regular;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5DB729054B0B3AFB2F1AA789 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PACKAGE_RESOURCE_BUNDLE_NAME = Starscream_Starscream;
+				PACKAGE_RESOURCE_TARGET_KIND = regular;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Test;
+		};
+		6391C782954C965273953FA7 /* Analyze */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream_Starscream-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PACKAGE_RESOURCE_TARGET_KIND = resource;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream.generated.resources;
+				PRODUCT_NAME = Starscream_Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Analyze;
+		};
+		7A12B364D96583730D9B16FD /* Analyze */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					SWIFT_PACKAGE,
+				);
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5;
+				USE_HEADERMAP = NO;
+			};
+			name = Analyze;
+		};
+		7C69E6EC8304511343BE7D81 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream_Starscream-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PACKAGE_RESOURCE_TARGET_KIND = resource;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream.generated.resources;
+				PRODUCT_NAME = Starscream_Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Alpha;
+		};
+		88A5AD65D241C1114FC610D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream_Starscream-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PACKAGE_RESOURCE_TARGET_KIND = resource;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream.generated.resources;
+				PRODUCT_NAME = Starscream_Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		89C57ED46D886CC6CFA787CD /* Wiretapped */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					SWIFT_PACKAGE,
+				);
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5;
+				USE_HEADERMAP = NO;
+			};
+			name = Wiretapped;
+		};
+		9CD79D5C7202168D78EADF31 /* Analyze */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PACKAGE_RESOURCE_BUNDLE_NAME = Starscream_Starscream;
+				PACKAGE_RESOURCE_TARGET_KIND = regular;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Analyze;
+		};
+		A125DCC7BA908DAE79373DB8 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PACKAGE_RESOURCE_BUNDLE_NAME = Starscream_Starscream;
+				PACKAGE_RESOURCE_TARGET_KIND = regular;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Beta;
+		};
+		AD04F20E5D0B839F07ACBD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream_Starscream-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PACKAGE_RESOURCE_TARGET_KIND = resource;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream.generated.resources;
+				PRODUCT_NAME = Starscream_Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		C3A761AFAAB8886B96A2BAB8 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream_Starscream-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PACKAGE_RESOURCE_TARGET_KIND = resource;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream.generated.resources;
+				PRODUCT_NAME = Starscream_Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Beta;
+		};
+		D1E5776782434ECB3C9AD1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					SWIFT_PACKAGE,
+				);
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		D4744D9B58587D20BC561F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					SWIFT_PACKAGE,
+				);
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5;
+				USE_HEADERMAP = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEC471EE56615B5026C9C858 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+					"SWIFT_PACKAGE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					SWIFT_PACKAGE,
+				);
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 5;
+				USE_HEADERMAP = NO;
+			};
+			name = Test;
+		};
+		EFE18E12B9AA80AF99ACD9C1 /* Wiretapped */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Derived/InfoPlists/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PACKAGE_RESOURCE_BUNDLE_NAME = Starscream_Starscream;
+				PACKAGE_RESOURCE_TARGET_KIND = regular;
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Wiretapped;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		335FA1FF1F5DF71D00F6D2EC /* Build configuration list for PBXNativeTarget "Starscream Tests" */ = {
+		A245351F01698B753F656BBD /* Build configuration list for PBXNativeTarget "Starscream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				335FA2001F5DF71D00F6D2EC /* Debug */,
-				335FA2011F5DF71D00F6D2EC /* Release */,
+				33601E722D3898C78210C43E /* Alpha */,
+				9CD79D5C7202168D78EADF31 /* Analyze */,
+				A125DCC7BA908DAE79373DB8 /* Beta */,
+				4C8985A9B1D336C636214E44 /* Debug */,
+				4FEE0EE2875B412795CAFF8B /* Release */,
+				5DB729054B0B3AFB2F1AA789 /* Test */,
+				EFE18E12B9AA80AF99ACD9C1 /* Wiretapped */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33CCF08F1F5DDC030099B092 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+		BFB59D2EE74615343C1EA8F5 /* Build configuration list for PBXNativeTarget "Starscream_Starscream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33CCF0901F5DDC030099B092 /* Debug */,
-				33CCF0911F5DDC030099B092 /* Release */,
+				7C69E6EC8304511343BE7D81 /* Alpha */,
+				6391C782954C965273953FA7 /* Analyze */,
+				C3A761AFAAB8886B96A2BAB8 /* Beta */,
+				88A5AD65D241C1114FC610D8 /* Debug */,
+				AD04F20E5D0B839F07ACBD12 /* Release */,
+				3F7E361851A9BC7E435368F1 /* Test */,
+				378572E4B909360193FA414D /* Wiretapped */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B3E79E019D48B7F006071F7 /* Build configuration list for PBXProject "Starscream" */ = {
+		FE551F1CF43145CCFFD047A2 /* Build configuration list for PBXProject "Starscream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B3E79F719D48B7F006071F7 /* Debug */,
-				6B3E79F819D48B7F006071F7 /* Release */,
+				1DE1575AB293F019D7E03315 /* Alpha */,
+				7A12B364D96583730D9B16FD /* Analyze */,
+				404742C352B675BF3E1D7734 /* Beta */,
+				D1E5776782434ECB3C9AD1A1 /* Debug */,
+				D4744D9B58587D20BC561F0B /* Release */,
+				DEC471EE56615B5026C9C858 /* Test */,
+				89C57ED46D886CC6CFA787CD /* Wiretapped */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6B3E79DD19D48B7F006071F7 /* Project object */;
+	rootObject = 275C2116BC66F0AC827AEDDC /* Project object */;
 }
